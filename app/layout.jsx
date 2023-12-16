@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" />
       </head>
       <body
-        className={`roboto.className max-w-4xl mx-auto px-4 pt-4 flex flex-col h-screen`}
+        className={`roboto.className max-w-4xl mx-auto px-4 pt-4 flex flex-col min-h-screen`}
       >
         <Header />
         <main className="flex-grow">{children}</main>
