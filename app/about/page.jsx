@@ -5,7 +5,7 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <>
-      <div>
+      <div className="my-10">
         <SectionHeader subHeader={"Our Story"} mainHeader={"About Us"} />
       </div>
       <div className="flex gap-2 max-w-3xl mx-auto">
