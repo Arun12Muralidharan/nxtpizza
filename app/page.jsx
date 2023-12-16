@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import HomeMenu from "./components/HomeMenu";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <>
+      <Hero />
+      <HomeMenu />
+    </>
   );
 }
