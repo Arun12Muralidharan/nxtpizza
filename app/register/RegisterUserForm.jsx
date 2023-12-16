@@ -16,7 +16,7 @@ const RegisterUserForm = () => {
   };
 
   return (
-    <div className="grid place-items-center mt-28">
+    <div className="grid place-items-center mt-20">
       <div className="shadow-lg p-5 rounded-lg border-t-4 border-yellow-600">
         <h1 className="text-xl font-bold my-4 text-yellow-600">Register</h1>
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
